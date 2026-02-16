@@ -1,0 +1,122 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+  margin-left: 50px;
+}
+#foot {
+  
+  color: #ff004c;
+    
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #e0e1e6;
+  background-image: url(https://media.istockphoto.com/id/1472680285/photo/healthy-meal-with-grilled-chicken-rice-salad-and-vegetables-served-by-woman.jpg?s=612x612&w=0&k=20&c=E4Y94oLIj8lXYk0OovBhsah3s_sC--WF95xPDvbJPlU=);
+  background-blend-mode:multiply
+}
+
+header {
+  background: #000000;
+  color: rgb(253, 253, 249);
+  padding: 20px;
+}
+
+.buttons {
+ text-align: center;
+  margin: 20px;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  background: #bdc4b9;
+  color: rgb(9, 6, 6);
+  cursor: pointer;
+  border: 1px solid #000;
+  border-radius: 2px;
+}
+
+.buttons button:hover {
+  background: #fbfbfb;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: rgba(0, 204, 255, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(6, 12, 12);
+
+  padding: 15px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin: 10px 0;
+}
+
+.card p {
+  
+   
+   margin-top: 15px;
+  color: #e91717;
+  font-weight: bold;
+}
+#jkl {
+  background: #000000;
+  color: rgb(246, 243, 243);
+  padding: 5px 10px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  display: inline;
+
+}
+footer {
+  background: #000000;
+  color: rgb(253, 253, 249);
+  text-align: center;
+  padding: 10px;
+  line-height: 30px;
+  margin-top: 120px;
+}
+#rate {
+  color: #f77206;
+  font-size: larger;
+  margin-bottom: 15px;
+}
+a {
+  color: #fffdfd;
+  text-decoration: none;
+  margin: 0 10px;
+  border: 1px white;
+  border-radius: 5px;
+  
+}
+h5{
+    color: #414244;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
